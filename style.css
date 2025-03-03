@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    max-width: 1200px;
+ 
+}
+body {
+   
+    margin: 0;
+    padding: 0;
+    background-color: rgb(172, 65, 27);
+    color: white;
+    text-align: center;
+ 
+
+
+}
+
+header h1 {
+    font-size: 2em;
+    margin-top: 20px;
+    color: white;
+}
+
+.highlight {
+    color: yellow;
+    font-weight: bold;
+}
+
+.links {
+    margin: 20px;
+}
+
+.links a {
+    color: blue;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: black;
+    padding: 15px;
+    width: 300px;
+
+
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    color: yellow;
+    font-size: 1.5em;
+}
+
+.card p {
+    font-size: 0.9em;
+    color: #ccc;
+}
